@@ -48,8 +48,9 @@ public class Main {
         int total = 0;
         for (int i = 1; i <= 12; i++){
             total = total + save;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total);
         }
-        System.out.println(total);
+
 
         System.out.println("Task 9");
 
